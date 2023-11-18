@@ -3,7 +3,7 @@
 ## Instruções
 
 1. **Clone o Repositório:**
-   ```bash git clone https://github.com/evertonnasac/UC-QA-testes-software.git]```
+   ```bash git clone https://github.com/evertonnasac/UC-QA-testes-software.git```
 
 2. **Instale as Dependências:**
   ```bash npm install```
