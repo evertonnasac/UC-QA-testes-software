@@ -32,11 +32,14 @@ Casos de testes para a função `login()`:
 
 ### `src/test/revalidatePassword.spec.ts`
 
-Casos de testes para a função `revalidatePassword()`:
+Casos de testes para a alteração de senha com as  funções `requestNewPassword()` e `revalidatePassword()` :
+- Passos usando a função `requestNewPassword()`
+1. Pegar o Token passando um email cadastrado para a função
 
+- Passos usando a função `revalidatePassword()`
 1. Tentativa com email, token e senha válidos.
-2. Tentativa com email válido, token inválido e senha inválida.
-3. Tentativa com email válido, token válido e senha inválida.
+2. Tentativa com token inválido e com senha e email válidos,
+3. Tentativa com email e token válidos e senha inválida.
 
 **Ferramentas Utilizadas:**
 - TypeScript
